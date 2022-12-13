@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+apache-airflow = {extras = ["gcp"],version = "==1.10.15"}
+
+[packages]
+attrs = "20.3.0"
+frozendict = "2.3.0"
+google-api-core = "1.31.5"
+google-cloud-tasks = "2.5.1"
+parameterized = "0.8.1"
+
+[requires]
+python_version = "3.6"
